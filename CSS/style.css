@@ -1,0 +1,10 @@
+@font-face {
+    font-family: headFont;
+    src: url(../Fonts/RemachineScript_Personal_Use.ttf);
+}
+.header{
+    font-family: headFont;
+    font-size: 20px;
+    text-align: center;
+    color:linear-gradient(to right, red , yellow);
+}
