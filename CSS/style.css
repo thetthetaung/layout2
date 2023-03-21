@@ -2,9 +2,41 @@
     font-family: headFont;
     src: url(../Fonts/RemachineScript_Personal_Use.ttf);
 }
+*{
+    margin:0;
+    padding:0;
+}
 .header{
     font-family: headFont;
     font-size: 20px;
     text-align: center;
     color:linear-gradient(to right, red , yellow);
+    padding:20px;
+}
+.header i,span{
+    color:blueviolet;
+}
+
+.header > ul{
+    list-style: none;
+    display: flex; 
+    justify-content: space-between;  
+}
+
+/* middle button developed by Gaday*/
+.con-explore{
+    background-color: #dc79bc;
+    height:600px;
+    padding:30px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../Images/header-bg.png");
+    height: auto;
+}
+.explore{
+    font-size: 20px;
+    background-color: #dc79bc;
+    border-radius: 1px solid #ddd;
+    padding: 10px;
 }
